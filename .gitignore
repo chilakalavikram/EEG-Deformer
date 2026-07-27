@@ -1,4 +1,4 @@
-# Python
+# Python cache
 __pycache__/
 *.py[cod]
 *.pyo
@@ -16,6 +16,7 @@ env/
 .ipynb_checkpoints/
 
 # Large datasets
+data_processed/
 *.pkl
 *.pickle
 
@@ -24,7 +25,8 @@ env/
 *.pth
 *.pt
 
-# TensorBoard logs
+# Training outputs and TensorBoard logs
+save/
 runs/
 logs/
 
