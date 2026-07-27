@@ -4,6 +4,38 @@ This is the PyTorch implementation of the EEG-Deformer in our paper:
 Yi Ding, Yong Li, Hao Sun, Rui Liu, Chengxuan Tong, Chenyu Liu, Xinliang Zhou, and Cuntai Guan, ["EEG-Deformer: A Dense Convolutional Transformer for Brain-computer Interfaces"](https://ieeexplore.ieee.org/document/10763464) in IEEE Journal of Biomedical and Health Informatics (J-BHI), 2024. 
 
 It is a Convolutional Transformer to decode mental states from Electroencephalography (EEG) for Brain-Computer Interfaces (BCI).
+## 📌 Project Overview
+
+This repository contains my local implementation and experimental work with the EEG-Deformer deep learning framework for EEG signal classification.
+
+As part of this project, I explored the implementation and execution of EEG-Deformer using PyTorch and studied its application to EEG-based brain-computer interface (BCI) tasks.
+
+### Tasks Explored
+
+- 🧠 Mental Fatigue Detection (FATIG)
+- 🎯 Attention Detection (ATTEN)
+- 📊 Mental Workload Detection (MWL)
+
+### Technologies Used
+
+- Python
+- PyTorch
+- Deep Learning
+- Convolutional Neural Networks
+- Transformer Architecture
+- EEG Signal Processing
+- NumPy
+- SciPy
+- Pandas
+
+### My Work
+
+- Set up the Python environment and project dependencies.
+- Configured and executed the EEG-Deformer implementation.
+- Worked with EEG preprocessing and dataset preparation.
+- Ran the mental fatigue detection experiment using the Deformer model.
+- Studied the model architecture and training pipeline.
+- Explored the project structure and model implementation.
 
 
 🔥 NEWS: The preprocessing code for attention dataset is released. It can be found at /prepare_dataset/Attention.py. 
