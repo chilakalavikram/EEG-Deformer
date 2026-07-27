@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# IDE files
+.idea/
+.vscode/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Large datasets
+*.pkl
+*.pickle
+
+# Model checkpoints
+*.ckpt
+*.pth
+*.pt
+
+# TensorBoard logs
+runs/
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
